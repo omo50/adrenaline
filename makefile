@@ -21,10 +21,7 @@ refresh-quilt:
 	cd versions/quilt && pw batch refresh
 refresh:
 	make refresh-fabric
-	make refresh-quilt
 update:
 	make update-fabric
-	make update-quilt
 export:
 	make export-fabric
-	make export-quilt
