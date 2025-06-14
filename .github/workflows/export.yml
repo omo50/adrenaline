@@ -40,4 +40,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: "Adrenaline-dev-${{ env.COMMIT_SHORT_SHA }}"
-        path: build/fabric
+        path: .build/fabric
